@@ -1,0 +1,48 @@
+/* [ Fonts ] */
+@font-face {
+  font-family: "Noto Sans";
+  src: url('../fonts/NotoSans.ttf');
+}
+
+/* [ navbar custom ] */
+.navbar.show {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+}
+
+.bg-custom {
+  background-color: #fff !important;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.navbar-toggler {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-toggler:hover, .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* [ Boostrap Icon ] */
+.bi {
+  font-size: 1.3em;
+  color: #000 !important;
+}
+
+/* [ fix body if navbar fixed-top ] */
+body {
+  padding-top: 3.7rem;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* [ Nav Link ] */
+.nav-link {
+  transition: .5s;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #204ecf !important;
+}
